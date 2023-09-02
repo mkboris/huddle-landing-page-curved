@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#logo {
+  filter: brightness(0) invert(1);
+}
+
+.icon:hover {
+  filter: invert(61%) sepia(62%) saturate(6114%) hue-rotate(164deg)
+    brightness(99%) contrast(101%);
+}
